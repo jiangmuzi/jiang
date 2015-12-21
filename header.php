@@ -48,7 +48,7 @@
 <div id="wrapper">
 <header>
 	<a id="logo" href="<?php $this->options->siteUrl(); ?>">
-		<img src="<?php $this->options->themeUrl('img/avatar.jpg') ?>" alt="<?php $this->options->title() ?>" />
+		<img src="<?php if ($this->options->logoUrl){$this->options->logoUrl();}else{$this->options->themeUrl('img/avatar.jpg');} ?>" alt="<?php $this->options->title() ?>" />
 	</a>
 	<a href="#" class="btn-menu"><i class="fa fa-bars"></i></a>
 	<nav id="nav-menu" class="clearfix">
