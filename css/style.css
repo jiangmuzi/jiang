@@ -833,10 +833,13 @@ a.btn-menu{
  * Error page
  * -------------- */
 .error-page {
-  margin-top: 100px;
-  margin-bottom: 100px;
+	padding: 30px 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
-
+.error-page p{
+	padding-bottom:10px;
+}
 /* -----------------
  * highlight
  * -------------- */
